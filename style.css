@@ -39,8 +39,8 @@
     position: absolute;
     top: 125px;
     right: 140px;
-    text-align: right;
     width: 100%;
+    text-align: right;
     font-family: Helvetica;
     font-size: 30px;
     color: #ffffff;
@@ -48,5 +48,17 @@
 
 
 .Footer {
-    background: #5db1ff;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #5db1ff;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
 }
