@@ -17,11 +17,24 @@
 }
 
 
+.Background_Main {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+
 .Intro_Title {
-    float: left;
-    margin-left: 50px;
-    margin-top: 50px;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    width: 100%;
     font-family:Helvetica;
-    font-size: 45px;
-    color: #4583bc
+    font-size: 70px;
+    color: #4583bc;
+
+}
+
+.Footer {
+    background: #5db1ff;
 }

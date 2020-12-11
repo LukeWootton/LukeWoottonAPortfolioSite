@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b99e1b8-18a9-409e-9f59-77ba8a904f70" name="Default Changelist" comment="Added style.css&#10;Transferred necessary code to style.css&#10;Changed color of all text">
+    <list default="true" id="3b99e1b8-18a9-409e-9f59-77ba8a904f70" name="Default Changelist" comment="Added background for main page&#10;Needs to be behind text and resized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -48,7 +48,8 @@
       <workItem from="1607371607519" duration="7088000" />
       <workItem from="1607382307981" duration="9000" />
       <workItem from="1607508981603" duration="14386000" />
-      <workItem from="1607608994262" duration="11005000" />
+      <workItem from="1607608994262" duration="11227000" />
+      <workItem from="1607681853271" duration="11311000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup">
       <created>1607372602321</created>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607540960579</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added background for main page&#10;Needs to be behind text and resized">
+      <created>1607654519572</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607654519572</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +133,7 @@
     <MESSAGE value="Added Intro Title (with font and size)" />
     <MESSAGE value="Neatened code and positioned/bold Intro Title" />
     <MESSAGE value="Added style.css&#10;Transferred necessary code to style.css&#10;Changed color of all text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added style.css&#10;Transferred necessary code to style.css&#10;Changed color of all text" />
+    <MESSAGE value="Added background for main page&#10;Needs to be behind text and resized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added background for main page&#10;Needs to be behind text and resized" />
   </component>
 </project>
