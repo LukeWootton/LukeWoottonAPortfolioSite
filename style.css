@@ -62,3 +62,21 @@
     padding-bottom: 5px;
     color: #ffffff;
 }
+
+#Scroll_Top_Button {
+    position: center;
+    border: none;
+    outline: none;
+    background-color: #575757;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-family: Helvetica;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+#Scroll_Top_Button:hover {
+    background-color: #1382e8;
+}
