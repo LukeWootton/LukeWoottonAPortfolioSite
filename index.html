@@ -58,7 +58,8 @@
     <div class="Footer">
         <p>Thanks for taking the time to view my website, I hope it gave you an insight into what I am capable of, I wish to hear from you soon.
             <br>
-            Click to return to the top of the page
+            <br>
+            <button onclick="topFunction()" id="Scroll_Top_Button" title="Go to top">Click to return to the top of the page</button>
         </p>
     </div>
 </body>
@@ -67,3 +68,12 @@
 
 
 </html>
+
+<script>
+    var Scroll_Top_Button = document.getElementById("Scroll_Top_Button");
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>

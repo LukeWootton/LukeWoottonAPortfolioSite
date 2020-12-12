@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b99e1b8-18a9-409e-9f59-77ba8a904f70" name="Default Changelist" comment="Added Footer&#10;Need to add button in Footer">
-      <change afterPath="$PROJECT_DIR$/JS_Website_Assignment.js" afterDir="false" />
+    <list default="true" id="3b99e1b8-18a9-409e-9f59-77ba8a904f70" name="Default Changelist" comment="Added Scroll_Top_Button&#10;Added JavaScript file&#10;Need to fix Scroll_Top_Button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS_Website_Assignment.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS_Website_Assignment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,8 @@
       <workItem from="1607382307981" duration="9000" />
       <workItem from="1607508981603" duration="14386000" />
       <workItem from="1607608994262" duration="11227000" />
-      <workItem from="1607681853271" duration="26185000" />
+      <workItem from="1607681853271" duration="26887000" />
+      <workItem from="1607787875841" duration="1065000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup">
       <created>1607372602321</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607718691160</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Scroll_Top_Button&#10;Added JavaScript file&#10;Need to fix Scroll_Top_Button">
+      <created>1607737593285</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607737593285</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
     <MESSAGE value="Resized Background_Main&#10;Positioned Intro_Title within Background_Main&#10;Fixed issue where &lt;span&gt; for bold wasn't working" />
     <MESSAGE value="Added Intro_Info and positioned over Background_Main" />
     <MESSAGE value="Added Footer&#10;Need to add button in Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Footer&#10;Need to add button in Footer" />
+    <MESSAGE value="Added Scroll_Top_Button&#10;Added JavaScript file&#10;Need to fix Scroll_Top_Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Scroll_Top_Button&#10;Added JavaScript file&#10;Need to fix Scroll_Top_Button" />
   </component>
 </project>
