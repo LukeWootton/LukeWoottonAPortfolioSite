@@ -1,26 +1,44 @@
-.Title {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5db1ff;
+}
+
+li {
     float: left;
-    margin-left: 50px;
-    font-family:Franklin Gothic;
-    font-size: 30px;
-    color: #ffffff
 }
 
-
-.Header {
+li a {
+    display: block;
+    color: white;
     text-align: center;
-    font-family: Franklin Gothic;
-    font-size: 30px;
-    background: #5db1ff;
-    height: 100px;
-    color: #ffffff;
+    font-family: Helvetica;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div_Title {
+    float: left;
+}
+
+.Title {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 
-.Background_Main {
-    position: relative;
-    width: auto;
-    height: auto;
+li a:hover:not(.active) {
+    background-color: #4583bc;
+}
+
+.active {
+    background-color: #4583bc;
 }
 
 
@@ -46,6 +64,7 @@
     color: #ffffff;
 }
 
+
 * {box-sizing: border-box;}
 body {font-family: Helvetica;}
 .mySlides {display: none;}
@@ -58,6 +77,7 @@ img {vertical-align: middle;}
     margin: auto;
 }
 
+
 /* The dots/bullets/indicators */
 .dot {
     height: 15px;
@@ -69,9 +89,11 @@ img {vertical-align: middle;}
     transition: background-color 0.6s ease;
 }
 
+
 .active {
     background-color: #1382e8;
 }
+
 
 /* Fading animation */
 .fade {
@@ -81,16 +103,17 @@ img {vertical-align: middle;}
     animation-duration: 3s;
 }
 
+
 @-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
 }
 
+
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
 }
-
 
 
 .Footer {
@@ -102,12 +125,11 @@ img {vertical-align: middle;}
     text-align: center;
     font-family: Helvetica;
     font-size: 20px;
-    margin-left: 1px;
-    margin-right: 1px;
     padding-top: 5px;
     padding-bottom: 5px;
     color: #ffffff;
 }
+
 
 #Scroll_Top_Button {
     position: center;
@@ -123,6 +145,55 @@ img {vertical-align: middle;}
     transition-duration: 0.5s;
 }
 
+
 #Scroll_Top_Button:hover {
     background-color: #1382e8;
+}
+
+
+.Projects_Title {
+    font-family: Helvetica;
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.clearfix {
+    overflow: auto;
+    font-family: Helvetica;
+    font-size: 25px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 10px solid #1382e8;
+    padding: 5px;
+
+
+}
+
+.Space_1 {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 50px;
+}
+
+
+.Mario_Kart_1 {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.Project_2_Text {
+    margin-left: 50px;
+}
+
+
+.Chess_1 {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 50px;
 }
