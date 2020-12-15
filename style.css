@@ -92,3 +92,104 @@ li a:hover:not(.active) {
 }
 
 
+/* HOMEPAGE SLIDESHOW AND DOTS */
+
+* {box-sizing: border-box;}
+body {font-family: Helvetica;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1100px;
+    position: absolute;
+    float: left;
+    margin: auto;
+    margin-top: 9px;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 1rem;
+}
+
+.active {
+    background-color: #1382e8;
+}
+
+
+/* Fading animation for slideshow */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+body {
+    background-color: #EFEFEF;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    width: auto;
+}
+
+
+/* FOOTER */
+
+.Footer {
+    position: relative;
+    float: left;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #5db1ff;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    margin-top: 215px;
+}
+
+#Scroll_Top_Button {
+    position: center;
+    border: none;
+    outline: none;
+    background-color: #575757;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-family: Helvetica;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+#Scroll_Top_Button:hover {
+    background-color: #1382e8;
+}
+
+
+

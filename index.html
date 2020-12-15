@@ -41,7 +41,7 @@
     </h1>
 
     <div class="Intro_Info">
-        Hello, I'm Luke Wootton and I currently study
+        Hello, I’m Luke Wootton and I currently study
         <br>
         Games Design at Bournemouth University.
         <br>
@@ -52,78 +52,70 @@
         <br>
         and sculpting. See my past
         <br>
-        projects by clicking here.
+        projects by clicking <a href="projects.html">here.</a>
         <br>
-        Alternatively, view my
+        Alternatively, find my
         <br>
-        latest project here.
+        contact info <a href="contact.html">here.</a>
+    </div>
+
+
+</div>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="images/Night_Sky_1.png" style="width:90%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/Night_Sky_2.png" style="width:90%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/Night_Sky_3.png" style="width:90%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/Night_Sky_4.png" style="width:90%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/Night_Sky_5.png" style="width:90%">
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
     </div>
 
 </div>
 
-    <div>
-        <h4>
-            <div class="slideshow-container">
 
-                <div class="mySlides fade">
-                    <img src="images/Night_Sky_1.png" style="width:90%">
-                </div>
+<div class="Footer">
+    <p>Thanks for taking the time to view my website, I hope it gave you an insight into what I am capable of, I wish to hear from you soon.
+        <br>
+        <br>
+        <button onclick="topFunction()" id="Scroll_Top_Button" title="Go to top">Click to return to the top of the page</button>
+    </p>
+</div>
 
-                <div class="mySlides fade">
-                    <img src="images/Night_Sky_2.png" style="width:90%">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="images/Night_Sky_3.png" style="width:90%">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="images/Night_Sky_4.png" style="width:90%">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="images/Night_Sky_5.png" style="width:90%">
-                </div>
-
-            </div>
-
-        </h4>
-
-        <h5>
-            <div style="text-align:center">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-        </h5>
-
-    </div>
-
-
-    <div class="Footer">
-        <p>Thanks for taking the time to view my website, I hope it gave you an insight into what I am capable of, I wish to hear from you soon.
-            <br>
-            <br>
-            <button onclick="topFunction()" id="Scroll_Top_Button" title="Go to top">Click to return to the top of the page</button>
-        </p>
-    </div>
 </body>
-
-
 
 
 </html>
 
+
+
 <script>
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
 
     var slideIndex = 0;
     showSlides();
+
+
 
     function showSlides() {
         var i;
@@ -141,4 +133,10 @@
         dots[slideIndex-1].className += " active";
         setTimeout(showSlides, 5000); // Change image every 5 seconds
     }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
 </script>
