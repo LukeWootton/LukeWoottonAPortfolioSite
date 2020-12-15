@@ -99,7 +99,9 @@ body {font-family: Helvetica;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
+
 /* Slideshow container */
+
 .slideshow-container {
     max-width: 1100px;
     position: absolute;
@@ -190,6 +192,85 @@ body {
 #Scroll_Top_Button:hover {
     background-color: #1382e8;
 }
+
+
+/* PROJECT TITLE */
+
+.Projects_Title {
+    font-family: Helvetica;
+    font-size: 50px;
+    color: #4583bc;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* PROJECT IMAGES + SLIDESHOW */
+
+.clearfix {
+    overflow: auto;
+    font-family: Helvetica;
+    font-size: 25px;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 10px solid #1382e8;
+    padding: 5px;
+}
+
+
+.Space_Container {
+    position: relative;
+}
+
+.Space {
+    position: absolute;
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 50px;
+    display: none;
+}
+
+
+.Mario_Kart {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-left: 50px;
+    display: none;
+}
+
+.Mario_Kart_Text {
+    margin-left: 50px;
+}
+
+
+.Chess {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 50px;
+    display: none;
+}
+
+
+/* PROJECT IMAGE SLIDESHOW ARROWS */
+
+.Left_Button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.Right_Button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
 
 
 

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <link rel="stylesheet" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Luke Wootton | Projects</title>
 
 
 <head>
+    <title> Luke Wootton | Projects</title>
 
     <ul>
         <div_Title class="Title">LW Portfolio</div_Title>
@@ -16,31 +16,55 @@
         <li><a href="#cv">CV</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
-
 </head>
+
+
+<body>
+
 
 <div class="Projects_Title">
     Projects:
 </div>
 
 <div class="clearfix">
-    <img class="Space_1" src="Space_1.png" alt="">
+
+    <div class="Space_Container">
+        <img class="Space" src="images/Space_1.png" alt="">
+        <img class="Space" src="images/Space_2.png" alt="">
+        <img class="Space" src="images/Space_3.png" alt="">
+
+        <button class="Left_Button" onclick="plusSpace(-1)">&#10094;</button>
+        <button class="Right_Button" onclick="plusSpace(1)">&#10095;</button>
+    </div>
+
     Project 1:
     <br>
     Applying my texturing and lighting skills, I manipulated the models to reflect what a spaceship would look like
 </div>
 
 <div class="clearfix">
-    <img class="Mario_Kart_1" src="Mario_Kart_1.png" alt="">
-        <div class="Project_2_Text">
-            Project 2:
-            <br>
-            Applying my texturing and lighting skills, I manipulated the models to reflect what a spaceship would look like
-        </div>
+    <img class="Mario_Kart" src="images/Mario_Kart_1.png" alt="">
+    <img class="Mario_Kart" src="images/Mario_Kart_2.png" alt="">
+    <img class="Mario_Kart" src="images/Mario_Kart_3.png" alt="">
+
+    <button class="Left_Button" onclick="plusMario(-1)">&#10094;</button>
+    <button class="Right_Button" onclick="plusMario(1)">&#10095;</button>
+
+    <div class="Mario_Kart_Text">
+        Project 2:
+        <br>
+        Applying my texturing and lighting skills, I manipulated the models to reflect what a spaceship would look like
+    </div>
 </div>
 
 <div class="clearfix">
-    <img class="Chess_1" src="Chess_1.png" alt="">
+    <img class="Chess" src="images/Chess_1.png" alt="">
+    <img class="Chess" src="images/Chess_2.png" alt="">
+    <img class="Chess" src="images/Chess_3.png" alt="">
+
+    <button class="Left_Button" onclick="plusChess(-1)">&#10094;</button>
+    <button class="Right_Button" onclick="plusChess(1)">&#10095;</button>
+
     Project 3:
     <br>
     Applying my texturing and lighting skills, I manipulated the models to reflect what a spaceship would look like
@@ -59,6 +83,8 @@
 
 </body>
 </html>
+
+
 
 
 
