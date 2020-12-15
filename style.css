@@ -272,5 +272,70 @@ body {
 }
 
 
+/* CONTACT IMAGE AND TRANSITION */
+
+.contact-container {
+    position: relative;
+    width: 35%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.contact-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4583bc;
+}
+
+.contact-container:hover .contact-overlay {
+    opacity: 1;
+}
+
+.contact-text {
+    colour: #ffffff;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
 
 
+/* CONTACT TITLE AND INFO */
+
+.contact_title {
+    position: relative;
+    left: 0;
+    width: 100%;
+    font-family:Helvetica;
+    font-size: 50px;
+    color: #4583bc;
+    margin-top: 1rem;
+}
+
+.contact_info {
+    position: absolute;
+    top: 125px;
+    right: 200px;
+    width: 100%;
+    text-align: right;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: #4583bc;
+    padding-top: 3rem;
+    z-index:-1;
+}

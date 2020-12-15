@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b99e1b8-18a9-409e-9f59-77ba8a904f70" name="Default Changelist" comment="Fixed a typo in index.html&#10;revamped projects.html and added manual slideshows&#10;Needs to add JavaScript to function" />
+    <list default="true" id="3b99e1b8-18a9-409e-9f59-77ba8a904f70" name="Default Changelist" comment="Added JavaScript to projects.html for slideshow">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +56,7 @@
       <workItem from="1607787875841" duration="12914000" />
       <workItem from="1607862727916" duration="14024000" />
       <workItem from="1607945451725" duration="6068000" />
-      <workItem from="1608059439624" duration="6232000" />
+      <workItem from="1608059439624" duration="7922000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup">
       <created>1607372602321</created>
@@ -185,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608065094338</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added JavaScript to projects.html for slideshow">
+      <created>1608066513199</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608066513199</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +237,7 @@
     <MESSAGE value="Revamped main body for index.html aswell as CSS&#10;Need to fix the automatic slideshow within index.html" />
     <MESSAGE value="Fixed automatic slideshow and dots in index.html&#10;Updated the footer and applied to all pages" />
     <MESSAGE value="Fixed a typo in index.html&#10;revamped projects.html and added manual slideshows&#10;Needs to add JavaScript to function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a typo in index.html&#10;revamped projects.html and added manual slideshows&#10;Needs to add JavaScript to function" />
+    <MESSAGE value="Added JavaScript to projects.html for slideshow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added JavaScript to projects.html for slideshow" />
   </component>
 </project>
