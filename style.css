@@ -43,3 +43,52 @@ li a:hover:not(.active) {
 .active {
     background-color: #4583bc;
 }
+
+
+/* TITLE LUKE WOOTTON GAME DESIGNER */
+
+.Intro_Title {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    width: 100%;
+    font-family:Helvetica;
+    font-size: 70px;
+    color: #ffffff;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+/* TRIANGLE IMAGE FOR BACKGROUND */
+
+.triangle {
+    float: right;
+    z-index: -1;
+    padding-top: 21.5px;
+}
+
+
+/* INTRO INFO TEXT */
+
+.Intro_Info {
+    position: absolute;
+    top: 125px;
+    right: 140px;
+    width: 100%;
+    text-align: right;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 2rem;
+}
+
+
+/* SQUARES FOR TOP LAYOUT */
+
+.square-set {
+    background: #4583bc;
+    padding-bottom: 30rem;
+}
+
+
