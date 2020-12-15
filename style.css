@@ -218,7 +218,6 @@ body {
     padding: 5px;
 }
 
-
 .Space_Container {
     position: relative;
 }
@@ -338,4 +337,85 @@ body {
     color: #4583bc;
     padding-top: 3rem;
     z-index:-1;
+}
+
+
+/* BOURNEMOUTH UNI PHOTO */
+
+.bournemouth-container {
+    position: relative;
+    width: 50%;
+    margin-bottom: 2rem;
+    float: right;
+}
+
+.bournemouth-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.bournemouth-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4583bc;
+}
+
+.bournemouth-container:hover .bournemouth-overlay {
+    opacity: 1;
+}
+
+.bournemouth-text {
+    colour: #ffffff;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+/* GOOGLE MAPS */
+
+.google_maps {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+/* SOCIAL MEDIA ICONS */
+
+.sm {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    float: left;
+    position: relative;
+}
+
+.sm:hover {
+    opacity: 0.7;
+}
+
+.sm-pinterest_icon {
+}
+
+.sm-instagram_icon {
+}
+
+.sm-linkedin_icon {
+}
+
+.sm-twitter_icon {
+}
+
+.sm-facebook_icon {
 }
