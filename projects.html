@@ -82,15 +82,77 @@
 </div>
 
 </body>
+
 </html>
 
 
 
-
-
 <script>
+
+
+    var spaceIndex = 1;
+    showSpace(spaceIndex);
+
+    function plusSpace(n) {
+        showSpace(spaceIndex += n);
+    }
+
+    function showSpace(n) {
+        var i;
+        var x = document.getElementsByClassName("Space");
+        if (n > x.length) {spaceIndex = 1}
+        if (n < 1) {spaceIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[spaceIndex-1].style.display = "block";
+    }
+
+
+
+
+    var marioIndex = 1;
+    showMario(marioIndex);
+
+    function plusMario(n) {
+        showMario(marioIndex += n);
+    }
+
+    function showMario(n) {
+        var i;
+        var x = document.getElementsByClassName("Mario_Kart");
+        if (n > x.length) {marioIndex = 1}
+        if (n < 1) {marioIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[marioIndex-1].style.display = "block";
+    }
+
+
+
+    var chessIndex = 1;
+    showChess(chessIndex);
+
+    function plusChess(n) {
+        showChess(chessIndex += n);
+    }
+
+    function showChess(n) {
+        var i;
+        var x = document.getElementsByClassName("Chess");
+        if (n > x.length) {chessIndex = 1}
+        if (n < 1) {chessIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[chessIndex-1].style.display = "block";
+    }
+
     function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
+
+
 </script>
