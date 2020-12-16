@@ -200,12 +200,12 @@ body {
     font-family: Helvetica;
     font-size: 50px;
     color: #4583bc;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 
 /* PROJECT IMAGES + SLIDESHOW */
+
 
 .clearfix {
     overflow: auto;
@@ -217,6 +217,7 @@ body {
     border: 10px solid #1382e8;
     padding: 5px;
 }
+
 
 .Space_Container {
     position: relative;
@@ -231,21 +232,35 @@ body {
     display: none;
 }
 
+.Space_Text {
+    margin-left: 450px;
+}
+
+.Mario_Container {
+    position: relative;
+}
 
 .Mario_Kart {
-    float: right;
+    position: absolute;
+    float: left;
     width: 30%;
     height: auto;
-    margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 1031px;
     display: none;
 }
 
 .Mario_Kart_Text {
-    margin-left: 50px;
+    margin-left: 5px;
+    margin-right: 500px;
 }
 
+.Chess_Container {
+    position: relative;
+}
 
 .Chess {
+    position: absolute;
     float: left;
     width: 30%;
     height: auto;
@@ -253,22 +268,77 @@ body {
     display: none;
 }
 
+.Chess_Text {
+    margin-left: 450px;
+}
 
 /* PROJECT IMAGE SLIDESHOW ARROWS */
 
-.Left_Button {
+
+.Left_Button_Space {
     position: relative;
     width: 50px;
     height: 50px;
     z-index: 1;
+    margin-right: 335px;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
 }
 
-.Right_Button {
+.Right_Button_Space {
     position: relative;
     width: 50px;
     height: 50px;
     z-index: 1;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
 }
+
+.Left_Button_Mario {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-right: 335px;
+    margin-left: 1031px;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
+}
+
+.Right_Button_Mario {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
+}
+
+.Left_Button_Chess {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-right: 335px;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
+}
+
+.Right_Button_Chess {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
+}
+
 
 
 /* CONTACT IMAGE AND TRANSITION */
@@ -324,14 +394,16 @@ body {
     font-size: 50px;
     color: #4583bc;
     margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .contact_info {
     position: absolute;
     top: 125px;
-    right: 200px;
+    right: 100px;
+    left: 600px;
     width: 100%;
-    text-align: right;
+    text-align: left;
     font-family: Helvetica;
     font-size: 30px;
     color: #4583bc;
@@ -342,11 +414,17 @@ body {
 
 /* BOURNEMOUTH UNI PHOTO */
 
-.bournemouth-container {
+.map_uni-container {
     position: relative;
+}
+
+.bournemouth-container {
+    position: absolute;
     width: 50%;
     margin-bottom: 2rem;
     float: right;
+    margin-left: 750px;
+    margin-right: 5px;
 }
 
 .bournemouth-image {
@@ -386,7 +464,7 @@ body {
 /* GOOGLE MAPS */
 
 .google_maps {
-    position: relative;
+    position: absolute;
     margin-bottom: 2rem;
 }
 
@@ -397,6 +475,7 @@ body {
     width: 100px;
     height: 100px;
     margin: auto;
+    margin-top: 500px;
     float: left;
     position: relative;
 }
@@ -406,15 +485,20 @@ body {
 }
 
 .sm-pinterest_icon {
+    padding-right: 300px;
+    padding-left: 100px;
 }
 
 .sm-instagram_icon {
+    padding-right: 300px;
 }
 
 .sm-linkedin_icon {
+    padding-right: 300px;
 }
 
 .sm-twitter_icon {
+    padding-right: 300px;
 }
 
 .sm-facebook_icon {
