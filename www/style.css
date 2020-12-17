@@ -1,0 +1,505 @@
+/* HEADER */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5db1ff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+div_Title {
+    float: left;
+    font-size: 20px;
+}
+
+.Title {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4583bc;
+}
+
+.active {
+    background-color: #4583bc;
+}
+
+
+/* TITLE LUKE WOOTTON GAME DESIGNER */
+
+.Intro_Title {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    width: 100%;
+    font-family:Helvetica;
+    font-size: 70px;
+    color: #ffffff;
+    padding-left: 80px;
+    margin-top: 20px;
+}
+
+
+/* TRIANGLE IMAGE FOR BACKGROUND */
+
+.triangle {
+    float: right;
+    z-index: -1;
+    padding-top: 21.5px;
+}
+
+
+/* INTRO INFO TEXT */
+
+.Intro_Info {
+    position: absolute;
+    top: 125px;
+    right: 140px;
+    width: 100%;
+    text-align: right;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 2rem;
+}
+
+
+/* SQUARES FOR TOP LAYOUT */
+
+.square-set {
+    background: #4583bc;
+    padding-bottom: 30rem;
+}
+
+
+/* HOMEPAGE SLIDESHOW AND DOTS */
+
+* {box-sizing: border-box;}
+body {font-family: Helvetica;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1100px;
+    position: absolute;
+    float: left;
+    margin: auto;
+    margin-top: 9px;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 1rem;
+}
+
+.active {
+    background-color: #1382e8;
+}
+
+
+/* Fading animation for slideshow */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+body {
+    background-color: #EFEFEF;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    width: auto;
+}
+
+
+/* FOOTER */
+
+.Footer {
+    position: relative;
+    float: left;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #5db1ff;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    margin-top: 215px;
+}
+
+#Scroll_Top_Button {
+    position: center;
+    border: none;
+    outline: none;
+    background-color: #575757;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-family: Helvetica;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+#Scroll_Top_Button:hover {
+    background-color: #1382e8;
+}
+
+
+/* PROJECT TITLE */
+
+.Projects_Title {
+    font-family: Helvetica;
+    font-size: 50px;
+    color: #4583bc;
+    padding-top: 1rem;
+}
+
+
+/* PROJECT IMAGES + SLIDESHOW */
+
+
+.clearfix {
+    overflow: auto;
+    font-family: Helvetica;
+    font-size: 25px;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 10px solid #1382e8;
+    padding: 5px;
+}
+
+
+.Space_Container {
+    position: relative;
+}
+
+.Space {
+    position: absolute;
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 50px;
+    display: none;
+}
+
+.Space_Text {
+    margin-left: 450px;
+}
+
+.Mario_Container {
+    position: relative;
+}
+
+.Mario_Kart {
+    position: absolute;
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 50px;
+    margin-left: 1031px;
+    display: none;
+}
+
+.Mario_Kart_Text {
+    margin-left: 5px;
+    margin-right: 500px;
+}
+
+.Chess_Container {
+    position: relative;
+}
+
+.Chess {
+    position: absolute;
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 50px;
+    display: none;
+}
+
+.Chess_Text {
+    margin-left: 450px;
+}
+
+/* PROJECT IMAGE SLIDESHOW ARROWS */
+
+
+.Left_Button_Space {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-right: 335px;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
+}
+
+.Right_Button_Space {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
+}
+
+.Left_Button_Mario {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-right: 335px;
+    margin-left: 1031px;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
+}
+
+.Right_Button_Mario {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
+}
+
+.Left_Button_Chess {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-right: 335px;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
+}
+
+.Right_Button_Chess {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-top: 54px;
+    border-radius: 0;
+    border-color: white;
+}
+
+
+
+/* CONTACT IMAGE AND TRANSITION */
+
+.contact-container {
+    position: relative;
+    width: 35%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.contact-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4583bc;
+}
+
+.contact-container:hover .contact-overlay {
+    opacity: 1;
+}
+
+.contact-text {
+    colour: #ffffff;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+/* CONTACT TITLE AND INFO */
+
+.contact_title {
+    position: relative;
+    left: 0;
+    width: 100%;
+    font-family:Helvetica;
+    font-size: 50px;
+    color: #4583bc;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact_info {
+    position: absolute;
+    top: 125px;
+    right: 100px;
+    left: 600px;
+    width: 100%;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: #4583bc;
+    padding-top: 3rem;
+    z-index:-1;
+}
+
+
+/* BOURNEMOUTH UNI PHOTO */
+
+.map_uni-container {
+    position: relative;
+}
+
+.bournemouth-container {
+    position: absolute;
+    width: 50%;
+    margin-bottom: 2rem;
+    float: right;
+    margin-left: 750px;
+    margin-right: 5px;
+}
+
+.bournemouth-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.bournemouth-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4583bc;
+}
+
+.bournemouth-container:hover .bournemouth-overlay {
+    opacity: 1;
+}
+
+.bournemouth-text {
+    colour: #ffffff;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+/* GOOGLE MAPS */
+
+.google_maps {
+    position: absolute;
+    margin-bottom: 2rem;
+}
+
+
+/* SOCIAL MEDIA ICONS */
+
+.sm {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 500px;
+    float: left;
+    position: relative;
+}
+
+.sm:hover {
+    opacity: 0.7;
+}
+
+.sm-pinterest_icon {
+    padding-right: 300px;
+    padding-left: 100px;
+}
+
+.sm-instagram_icon {
+    padding-right: 300px;
+}
+
+.sm-linkedin_icon {
+    padding-right: 300px;
+}
+
+.sm-twitter_icon {
+    padding-right: 300px;
+}
+
+.sm-facebook_icon {
+}

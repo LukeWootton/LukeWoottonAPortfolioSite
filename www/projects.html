@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<head>
+    <title> Luke Wootton | Projects</title>
+
+    <ul>
+        <div_Title class="Title">LW Portfolio</div_Title>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</head>
+
+
+<body>
+
+<div class="Projects_Title">
+    <span style="font-weight: bold">Projects:</span>
+</div>
+
+<div class="clearfix">
+    <div class="Space_Container">
+        <img class="Space" src="images/Space_1.png" alt="">
+        <img class="Space" src="images/Space_2.png" alt="">
+        <img class="Space" src="images/Space_3.png" alt="">
+        <div class="Space_Text">
+            Project 1:
+            <br>
+            In 2019, I was tasked with texturing and adding lighting to pre-made models, I used my skills in substance painter to create high-fidelity textures to help build a convincing environment. Lighting was applied through unreal engine in a number of places to allow for certain effects such as flickering lights.
+        </div>
+        <button class="Left_Button_Space" onclick="plusSpace(-1)">&#10094;</button>
+        <button class="Right_Button_Space" onclick="plusSpace(1)">&#10095;</button>
+
+    </div>
+</div>
+
+<div class="clearfix">
+    <div class="Mario_Container">
+        <img class="Mario_Kart" src="images/Mario_Kart_1.png" alt="">
+        <img class="Mario_Kart" src="images/Mario_Kart_2.png" alt="">
+        <img class="Mario_Kart" src="images/Mario_Kart_3.png" alt="">
+        <div class="Mario_Kart_Text">
+            Project 2:
+            <br>
+            For this project, I was required to model and texture a vehicle for a racing game. My skills for this project included meticulously building models in Maya to a high standard including both a low-poly version and a high-poly version for rendering. The models were textured using substance painter to fit a given specification.
+        </div>
+        <button class="Left_Button_Mario" onclick="plusMario(-1)">&#10094;</button>
+        <button class="Right_Button_Mario" onclick="plusMario(1)">&#10095;</button>
+
+    </div>
+</div>
+
+<div class="clearfix">
+    <div class="Chess_Container">
+        <img class="Chess" src="images/Chess_1.png" alt="">
+        <img class="Chess" src="images/Chess_2.png" alt="">
+        <img class="Chess" src="images/Chess_3.png" alt="">
+        <div class="Chess_Text">
+            Project 3:
+            <br>
+            This is my latest project from Q3 2020, I was given a brief to sculpt different chess pieces to be applied to an online 3D chess game. I used my Mudbox skills to carefully sculpt each piece consistently to a fine detail to be exported into Substance painter so that I could apply the textures provided to me.
+        </div>
+        <button class="Left_Button_Chess" onclick="plusChess(-1)">&#10094;</button>
+        <button class="Right_Button_Chess" onclick="plusChess(1)">&#10095;</button>
+
+    </div>
+</div>
+
+
+
+
+
+<div class="Footer">
+    <p>Thanks for taking the time to view my website, I hope it gave you an insight into what I am capable of. I wish to hear from you soon.
+        <br>
+        <br>
+        <button onclick="topFunction()" id="Scroll_Top_Button" title="Go to top">Click to return to the top of the page</button>
+    </p>
+</div>
+
+</body>
+
+</html>
+
+
+
+<script>
+
+
+    var spaceIndex = 1;
+    showSpace(spaceIndex);
+
+    function plusSpace(n) {
+        showSpace(spaceIndex += n);
+    }
+
+    function showSpace(n) {
+        var i;
+        var x = document.getElementsByClassName("Space");
+        if (n > x.length) {spaceIndex = 1}
+        if (n < 1) {spaceIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[spaceIndex-1].style.display = "block";
+    }
+
+
+
+
+    var marioIndex = 1;
+    showMario(marioIndex);
+
+    function plusMario(n) {
+        showMario(marioIndex += n);
+    }
+
+    function showMario(n) {
+        var i;
+        var x = document.getElementsByClassName("Mario_Kart");
+        if (n > x.length) {marioIndex = 1}
+        if (n < 1) {marioIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[marioIndex-1].style.display = "block";
+    }
+
+
+
+    var chessIndex = 1;
+    showChess(chessIndex);
+
+    function plusChess(n) {
+        showChess(chessIndex += n);
+    }
+
+    function showChess(n) {
+        var i;
+        var x = document.getElementsByClassName("Chess");
+        if (n > x.length) {chessIndex = 1}
+        if (n < 1) {chessIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[chessIndex-1].style.display = "block";
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+
+</script>
